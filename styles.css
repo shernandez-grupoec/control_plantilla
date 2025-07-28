@@ -101,7 +101,8 @@ body {
 .photo-page {
   background: #1d4d8b;
   color: white;
-  padding: 30px;
+  padding: 40px;
+  min-height: calc(100vh - 80px);
 }
 
 .photo-header {
