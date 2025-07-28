@@ -8,8 +8,10 @@
 body {
   font-family: Arial, sans-serif;
   color: white;
+  background: #f8f8f8;
 }
 
+/* Portada */
 .cover-container {
   position: relative;
   width: 100%;
@@ -27,7 +29,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 32, 91, 0.85); /* Azul semitransparente */
+  background: rgba(0, 32, 91, 0.85);
   z-index: 1;
 }
 
@@ -93,4 +95,66 @@ body {
 .location {
   font-size: 16px;
   margin-bottom: 5px;
+}
+
+/* Página 2 */
+.photo-page {
+  background: #1d4d8b;
+  color: white;
+  padding: 30px;
+}
+
+.photo-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-logo {
+  width: 70px;
+  margin-right: 20px;
+}
+
+.header-text h2 {
+  font-size: 22px;
+}
+
+.highlight {
+  background: #e85b1a;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.date-small {
+  font-size: 14px;
+}
+
+.photo-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.photo-item {
+  text-align: center;
+  width: 32%;
+}
+
+.photo-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.photo-item p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.photo-footer {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: bold;
 }
